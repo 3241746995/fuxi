@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1</title>
+	<style>
+		.wrap{
+			width:100%;
+			height:50px;
+			/*overflow: hidden;*/
+			position: relative;
+
+		}
+
+		.wrap div{
+			position: absolute;
+			/*float: left;*/
+		}
+
+		.wrap .left{
+			left:0;
+			width:200px;
+			background-color: blue;
+
+		}
+
+		.wrap .center{
+			left:200px;
+			right:150px;
+			margin:0 auto;
+			background-color: yellow;
+			
+		}
+
+		.wrap .right{
+			right:0;
+			width:150px;
+			background-color: blue;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="left">left</div>
+		<div class="center">center</div>
+		<div class="right">right</div>
+	</div>
+</body>
+</html>
